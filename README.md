@@ -6,7 +6,7 @@
 
 eXtensible ARchiver
 ===================
-
+```
  apt-get install -y build-essentials git autoconf libxml2-dev libcurl4-openssl-dev python2.7 libbz2-dev liblzma-dev
 
 git clone https://github.com/c4pt000/xar
@@ -16,7 +16,7 @@ cd xar
 make
 make install
 
-
+```
 A fork/clone of the subversion xar repository that includes several enhancements
 and bug fixes including very basic command line signature support.
 
