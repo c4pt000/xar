@@ -146,7 +146,6 @@ case "${host}" in
 #else
 #error aout
 #endif
-]])],
                           [CFLAGS="$CFLAGS"; abi="elf"],
                           [abi="aout"])
 	AC_MSG_RESULT([$abi])
@@ -329,7 +328,8 @@ dnl Configure libcrypto (part of OpenSSL).
 dnl 
 have_libcrypto="1"
 AC_CHECK_HEADERS([openssl/evp.h], , [have_libcrypto="0"])
-AC_CHECK_LIB([crypto], [OpenSSL_add_all_ciphers], , [have_libcrypto="0"])
+AC_CHECK_LIB([crypto], [OPENSSL_init_crypto], , [have_libcrypto="0"])
+
 if test "x${have_libcrypto}" = "x0" ; then
   AC_MSG_ERROR([Cannot build without libcrypto (OpenSSL)])
 fi
