@@ -2,7 +2,7 @@
 
 
 * patched to find openssl libs for 1.1.1i AC_CHECK_LIB([crypto], [OPENSSL_init_crypto], , [have_libcrypto="0"])
-
+* large file support extract .pkg
 
 eXtensible ARchiver
 ===================
