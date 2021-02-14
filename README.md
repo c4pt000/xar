@@ -23,8 +23,7 @@ and bug fixes including very basic command line signature support.
 The project page with extensive documentation on signing, pre-bootstrapped
 downloads, etc. can be found at:
 
-  http://mackyle.github.io/xar
-
+https://github.com/c4pt000/xar
 ------------
 Enhancements
 ------------
@@ -89,4 +88,4 @@ See the xar/INSTALL file for additional information.
 Pre-bootstrapped xar release tarballs (i.e. with configure already generated)
 can be found in the downloads section of the project page at:
 
-  http://mackyle.github.io/xar/#downloads
+https://github.com/c4pt000/xar
