@@ -1,4 +1,7 @@
-# xar
+# xar patched for openssl-1.1.1i
+# AC_CHECK_LIB([crypto], [OPENSSL_init_crypto], , [have_libcrypto="0"])
+
+
 eXtensible ARchiver
 ===================
 
